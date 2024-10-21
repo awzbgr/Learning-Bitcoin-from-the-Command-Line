@@ -117,7 +117,8 @@ Invalid address
 
 It might seem dangerous having all of your irreplaceable private keys in a single file. That's what `bitcoin-cli dumpwallet` is for. It lets you make a copy of your wallet.dat:
 ```
-$ bitcoin-cli dumpwallet ~/mywallet.txt
+$ bitcoin-cli backupwallet ~/mywallet.txt
+
 ```
 The `mywallet.txt` file in your home directory will have a long list of private keys, addresses, and other information. Mind you, you'd never want to put this data out in a plain text file on a Bitcoin setup with real funds!
 
